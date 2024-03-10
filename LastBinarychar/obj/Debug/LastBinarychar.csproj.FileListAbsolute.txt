@@ -1,0 +1,10 @@
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\bin\Debug\LastBinarychar.exe.config
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\bin\Debug\LastBinarychar.exe
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\bin\Debug\LastBinarychar.pdb
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.csproj.AssemblyReference.cache
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.Form1.resources
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.Properties.Resources.resources
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.csproj.GenerateResource.cache
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.csproj.CoreCompileInputs.cache
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.exe
+E:\University\4th Year\Last Term\Advanced Knowledge representation\Negative Database1\LastBinarychar\LastBinarychar\obj\Debug\LastBinarychar.pdb
