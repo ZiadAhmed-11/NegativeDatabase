@@ -6,22 +6,39 @@ namespace LastBinarychar
 {
     public partial class Form1 : Form
     {
-        private string[] binaryArray = { "01000001", "01000010", "01000011", "01000100" };
+        private string[] binaryArray;
 
         public Form1()
         {
             InitializeComponent();
+            InitializeBinaryArray();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
         }
+        private void InitializeBinaryArray()
+        {
+            binaryArray = new string[26]; 
 
+            for (char c = 'A'; c <= 'Z'; c++)
+            {
+                int index = c - 'A';
+                binaryArray[index] = ConvertCharToBinary(c);
+            }
+        }
+
+        private string ConvertCharToBinary(char c)
+        {
+            return Convert.ToString(c, 2).PadLeft(8, '0');
+        }
+
+        
         private void ConvertButton_Click(object sender, EventArgs e)
         {
             char inputChar = InputTextBox.Text.ToUpper()[0];
 
-            if (inputChar >= 'A' && inputChar <= 'D')
+            if (inputChar >= 'A' && inputChar <= 'z')
             {
                 int index = inputChar - 'A';
 
@@ -30,7 +47,7 @@ namespace LastBinarychar
             }
             else
             {
-                MessageBox.Show("Please enter a character between A to D.");
+                MessageBox.Show("Please enter a character between A to Z.");
             }
         }
 
@@ -53,7 +70,7 @@ namespace LastBinarychar
         {
             char inputChar = textBox1.Text.ToUpper()[0];
 
-            if (inputChar >= 'A' && inputChar <= 'D')
+            if (inputChar >= 'A' && inputChar <= 'Z')
             {
                 int index = inputChar - 'A';
 
@@ -68,7 +85,7 @@ namespace LastBinarychar
             }
             else
             {
-                MessageBox.Show("Please enter a character between A to D.");
+                MessageBox.Show("Please enter a character between A to Z.");
             }
         }
         
